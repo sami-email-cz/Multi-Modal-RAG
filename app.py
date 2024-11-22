@@ -48,7 +48,7 @@ def load_models():
         # Load Qwen model
         model = Qwen2VLForConditionalGeneration.from_pretrained(
             "Qwen/Qwen2-VL-7B-Instruct",
-            torch_dtype=torch.float16,
+            torch_dtype=torch.float16,# use bfloat16 if your GPU supports it
             device_map="cuda"
         )
         
@@ -83,7 +83,6 @@ def main():
     
     # Sidebar
     with st.sidebar:
-        st.image("https://raw.githubusercontent.com/your-repo/your-logo.png", width=100)  # Replace with your logo
         st.title("Navigation")
         
         selected = option_menu(
