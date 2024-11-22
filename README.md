@@ -28,8 +28,8 @@ cd Multi-Model-RAG
 
 2. Install Poppler:
 Windows: Download from http://blog.alivate.com.au/poppler-windows/
-Linux:`sudo apt-get install -y poppler-utils`
-Mac: `brew install poppler`
+Linux:sudo apt-get install -y poppler-utils
+Mac: brew install poppler
 
 3. Install Python dependencies:
 pip install -r requirements.txt
