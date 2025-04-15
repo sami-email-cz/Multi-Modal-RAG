@@ -6,7 +6,6 @@ accelerate
 flash-attn
 qwen_vl_utils
 pdf2image
-python-magic-bin
 watchdog
 extra-streamlit-components
 streamlit-option-menu

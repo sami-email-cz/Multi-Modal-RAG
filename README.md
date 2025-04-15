@@ -34,6 +34,8 @@ Linux:sudo apt-get install -y poppler-utils
 Mac: brew install poppler
 ```
 
+
+
 3. Install Python dependencies:
 ```bash
 pip install -r requirements.txt
